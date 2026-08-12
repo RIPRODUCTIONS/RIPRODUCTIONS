@@ -1,0 +1,6 @@
+# Added 2026-08-12. This repo had NO .gitignore at all: its .DS_Store was ignored
+# only by /Users/x/SYSTEM/configs/.gitignore-global, a file outside the repo. Cloned
+# on any other machine, that junk becomes untracked-and-unignored.
+.DS_Store
+*.log
+.claude/
